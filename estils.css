@@ -1,0 +1,75 @@
+body{
+background:url(../imagenes/baile.jpg);
+background-repeat: no-repeat;
+color: #fff;
+background-size: 1500px;
+background-position: top;
+background-attachment: fixed;
+}
+
+h1{
+  text-align: center;
+  width: 100;
+
+
+}
+#texto {
+  width: 410px;
+  font-size: 50px;
+  border: 3px solid white;
+  margin: 0 auto;
+}
+
+
+.cuadrado1{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  float: right;
+
+.1{
+  width: auto;
+  height: 
+}
+
+
+}
+.cuadrado1:hover{
+border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px #ec731e;
+-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+
+{
+  width: 300;
+  height: 300;
+  margin: 30;
+}
+
+.cuadrado2{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  float: left;
+}
+
+.cuadrado2:hover{
+border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px #ec731e;
+-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+
+#Contenedor {
+
+  background-color: inherit;
+  width: 1000px;
+  margin: 0 auto;
+}
