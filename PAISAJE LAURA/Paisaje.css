@@ -1,0 +1,256 @@
+body {
+  background-color: black;
+  animation-name: cielo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cielo {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #99ffff;
+  }
+}
+
+.fachada {
+     width: 200px;
+     height: 200px;
+     background: silver;
+     position: absolute;
+     left: 400px;
+     top: 300px;
+     border:solid 4px black;
+
+}
+.tejado {
+     width: 250px;
+     height: 70px;
+     background: red;
+     position: absolute;
+     left: 375px;
+     top: 230px;
+     border:solid 4px black;
+
+}
+.ventana1 {
+    width: 50px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    left: 425px;
+    top: 330px;
+    border:solid 4px black;
+
+}
+.ventana2 {
+    width: 50px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    left: 515px;
+    top: 330px;
+    border:solid 4px black;
+
+}
+.puerta{
+    width: 50px;
+    height: 70px;
+    background: brown;
+    position: absolute;
+    left: 470px;
+    top: 430px;
+    border:solid 4px black;
+}
+
+.chimenea {
+    width: 30px;
+    height: 60px;
+    background:maroon;
+    position: absolute;
+    left: 550px;
+    top: 170px;
+    border:solid 4px black;
+
+}
+.humito {
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+    position: absolute;
+    top: 150px;
+    left: 560px;
+    border-radius: 50%;
+    opacity: 75%;
+
+}
+.humito:after {
+    width: 70px;
+    height: 70px;
+    background-color: grey;
+    position: absolute;
+    content: "";
+    left: 20px;
+    border-radius: 50%;
+    opacity: 80%;
+}
+.humito:before {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    position: absolute;
+    content: "";
+    left: 20px;
+    border-radius: 50%;
+    opacity: 85%;
+}
+.montaña1{
+  width: 500px;
+  height: 550px;
+  background-color: #004400;
+  position: absolute;
+  border-radius: 50% 50% 52% 48% / 96% 100% 0% 4%;
+
+}
+.montaña2{
+  width: 400px;
+  height: 500px;
+  left: 300px;
+  top: 200px;
+  background-color: #663300;
+  position: absolute;
+  border-radius: 48% 52% 50% 50% / 65% 68% 32% 35%;
+
+}
+.montaña3{
+  width: 400px;
+  height: 500px;
+  left: 600px;
+  top: 100px;
+  background-color: #004400;
+  position: absolute;
+  border-radius: 48% 52% 50% 50% / 100% 97% 3% 0%;
+
+}
+
+.petalo1{
+  width: 50px;
+  height: 50px;
+  left: 700px;
+  top: 400px;
+  background-color: #cc66cc;
+  position: absolute;
+  border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+  animation-name: petalo1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+  @keyframes petalo1 {
+    from { transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+
+  }
+.petalo2{
+  width: 50px;
+  height: 50px;
+  left: 700px;
+  top: 400px;
+  background-color: #cc33cc;
+  position: absolute;
+  border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+  animation-name: petalo2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes petalo2 {
+  from { transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+
+}
+.petalo3{
+  width: 50px;
+  height: 50px;
+  left: 700px;
+  top: 400px;
+  background-color: #880088;
+  position: absolute;
+  clip-path: circle(26.6% at 50% 50%);
+
+
+}
+.sol {
+  width: 250px;
+  height: 250px;
+  background: white;
+  position: relative;
+  left: 1000px;
+  top: 50px;
+  border-radius: 100%;
+  animation-name: sol ;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes sol {
+  from {
+    transform: rotate(0deg);
+    top: 50px;
+  }
+  to {
+    transform: rotate(360deg);
+    top: 500px;
+  }
+}
+
+.base {
+  width: 100%;
+  height: 100%;
+  background: #007700;
+  position: absolute;
+  left: 0px;
+  top: 500px;
+}
+.palo1 {
+  width: 14px;
+  height: 110px;
+  background: brown;
+  position: absolute;
+  left: 80px;
+  top: 397px;
+}
+.palo2 {
+  width: 14px;
+  height: 110px;
+  background: brown;
+  position: absolute;
+  left: 160px;
+  top: 397px;
+}
+.palo3 {
+  width: 14px;
+  height: 110px;
+  background: brown;
+  position: absolute;
+  left: 235px;
+  top: 397px;
+}
+.palo4 {
+  width: 14px;
+  height: 110px;
+  background: brown;
+  position: absolute;
+  left: 300px;
+  top: 397px;
+}
+.reja{
+  width: 400px;
+  height: 14px;
+  background: brown;
+  position: absolute;
+  top: 430px;
+  left: -1px;
+}
